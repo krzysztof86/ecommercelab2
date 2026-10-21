@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+mini-shop/staticfiles/
+mini-shop/whoosh_index/
+state.json
+server*.log
+.lab2_auto
+dane_testowe.txt
