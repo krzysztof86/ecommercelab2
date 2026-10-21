@@ -6,7 +6,9 @@ Repozytorium do laboratorium 2. Punktem wyjścia jest projekt `mini-shop` z labo
 ## Struktura
 
 ```
-django-oscar-lab2/
+lab2/
+  Sprawozdanie_LAB2_Django_Oscar.docx   gotowe sprawozdanie
+  requirements.txt          zależności projektu
   .venv/                    środowisko wirtualne (poza repozytorium)
   mini-shop/                projekt Django Oscar z LAB1
     inventory_api/          LAB2, zad. 3 – przykład kontraktu POST /inventory/reservations
@@ -15,6 +17,17 @@ django-oscar-lab2/
   symulacje/                LAB2, zad. 4 – awaria Payment Service i ponowienie z kluczem idempotencji
   docs/                     LAB2, zad. 5 – diagram architektury sklepu
   zrzuty/                   zrzuty ekranu do sprawozdania
+  automatyzacja/            skrypty, które wykonały LAB2 i wygenerowały zrzuty oraz sprawozdanie
+```
+
+## Pierwsze uruchomienie po sklonowaniu repozytorium (PowerShell)
+
+```
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+cd mini-shop
+python manage.py rebuild_index --noinput
 ```
 
 ## Uruchomienie (PowerShell)

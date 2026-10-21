@@ -1,0 +1,4 @@
+django-oscar[sorl-thumbnail]==4.2.1
+Django==6.1.2
+whoosh==2.7.4
+pycountry
